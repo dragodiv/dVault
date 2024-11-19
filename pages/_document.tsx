@@ -1,10 +1,13 @@
-import { Html, Head, Main, NextScript } from 'next/document'
-import Script from 'next/script'
+import { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        <meta name="description" content="dVault - Share Your Files Smartly" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <body>
         <Main />
         <NextScript />
@@ -22,5 +25,5 @@ export default function Document() {
         </Script>
       </body>
     </Html>
-  )
+  );
 }
