@@ -1,4 +1,4 @@
-# CloudBox API Documentation
+# dVault API Documentation
 
 It is possible to use the API to create and manage the resources used by the application. The API is available at the following address: `/api`.
 It is RESTful and uses the following HTTP methods:
@@ -10,7 +10,7 @@ It is RESTful and uses the following HTTP methods:
 
 ## Authentication
 
-Authentication is required for accessing CloudBox API endpoints. You need to include an API key in the header of each request.
+Authentication is required for accessing dVault API endpoints. You need to include an API key in the header of each request.
 
 API requests must be authenticated using a token that can be obtained from [Here](/profile). The token must be sent in the `Authorization` header of the request.
 
@@ -19,9 +19,10 @@ Authorization: Bearer <your_api_key>
 ```
 
 ## Endpoints
+
 ### 1. **Get Images**
 
-Retrieves a list of images stored in CloudBox.
+Retrieves a list of images stored in dVault.
 
 - **Endpoint**: `/getImages`
 - **Method**: `GET`
@@ -31,7 +32,7 @@ Retrieves a list of images stored in CloudBox.
 
 ### 2. **Get Files**
 
-Retrieves a list of files stored in CloudBox.
+Retrieves a list of files stored in dVault.
 
 - **Endpoint**: `/getFiles`
 - **Method**: `GET`
