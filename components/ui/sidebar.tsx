@@ -31,7 +31,7 @@ const Sidebar = () => {
     { title: "Home", src: "home", link: "/" },
     { title: "Images", src: "images", link: "/images" },
     { title: "Files", src: "files", link: "/files" },
-    { title: "Api", gap: true, src: "api", link: "/dVaultApi" },
+    { title: "Api", gap: true, src: "api", link: "/dvault-api" },
     { title: "Storage", src: "storage", link: "/storage" },
     { title: "Upload", src: "upload", gap: true, link: "uploadFile" },
     { title: "Smart Share", src: "smartshare", link: "/smartshare" },
