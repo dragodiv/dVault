@@ -19,7 +19,7 @@ export enum Action {
   share = "share",
   download = "download",
 }
-
+// actions component
 export const Actions = ({
   theme,
   item,
